@@ -1,0 +1,23 @@
+{
+  "name": "smartbooks",
+  "version": "1.0.0",
+  "description": "An apps that manages your personal library.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phemonick/smartbooks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phemonick/smartbooks/issues"
+  },
+  "homepage": "https://github.com/phemonick/smartbooks#readme",
+  "dependencies": {
+    "es6-promise": "^4.2.4",
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
