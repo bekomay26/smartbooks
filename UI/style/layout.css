@@ -37,6 +37,23 @@ h1 {
 	width: 150px;
 }
 
+#details-container {
+	display: flex;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#details-container #image-box {
+	padding:30px;
+	flex-grow: 1;
+}
+
+#details-container #details-box {
+	padding:30px;
+	flex-grow: 8;
+}
+
 #main-container {
   width: 66%;
   background-color: #7952b3;
