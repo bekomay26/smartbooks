@@ -15,36 +15,22 @@
           <a href="#" id="menu-icon"><i class="material-icons">menu</i></a>
         </nav>
       </header>
-        <form>
-            <table id='summary-table' align='center'>
-                <thead>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Name</td>
-                        <td>Harry Potter</td>
-                    </tr>
-                    <tr>
-                        <td>Author</td>
-                        <td>JK Rowling</td>
-                    </tr>
-                    <tr>
-                        <td>Image</td>
-                        <td><img src='img/bookimage.jpg' width='50' height='150'></td>
-                    </tr>
-                    <tr>
-                        <td>Desciption</td>
-                        <td>Book about a wizard</td>
-                    </tr>
-                    <tr>
-                        <td colspan='2'><button class='edit-btn'><i class="material-icons">edit</i> Edit</button>
-                        <button class='delete-btn'><i class="material-icons">delete</i> Delete</button></td>
-                    </tr>
-                </tbody>
-            </table>
-        </form>
-        <footer>
-            <h1>Privacy Policy | &copy; Copyright 2018</h1>
-        </footer>
+      <div id='details-container'>
+        <div id='image-box'>
+            <img src='img/bookimage.jpg'>
+        </div>
+        <div id='details-box'>
+            <h3>Title: <span id='title'></span></h3>
+            <h4>Author: <span id='author'></span></h4>
+            <h5>Page Count: <span id='pageCount'></span></h5>
+            <h5>Description</h5>
+            <p id='description'></p>
+            <h5>Excerpt</h5>
+            <p id='excerpt'></p>
+        </div>
+      </div>  
+    <footer>
+        <h1>Privacy Policy | &copy; Copyright 2018</h1>
+    </footer>
     </body>
 </html>
